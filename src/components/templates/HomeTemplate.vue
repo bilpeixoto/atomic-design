@@ -11,8 +11,6 @@ import { defineComponent } from 'vue'
 import { Container } from '@/components/bosons'
 import { Header, Presentation, Services } from '@/components/organisms'
 import 'beautify-scrollbar/dist/index.css'
-import BeautifyScrollbar from 'beautify-scrollbar'
-const bs = new BeautifyScrollbar(Container)
 
 export default defineComponent({
   components: { Container, Header, Presentation, Services }
